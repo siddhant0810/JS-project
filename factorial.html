@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Find the factorial of number</h1>
+    <script>
+        let num = Number(prompt('hello user enter here a number to find factors.'))
+        if (num < 1){
+            alert("PLeasee enter positive value")
+
+        }
+        let arr = []
+        for(let i = 1; i<= num;i++){
+            arr.push(i)
+
+        }
+        let a = arr.reduce(a,b=>{
+            return a*b
+        })
+        console.log('hello'+a)
+    </script>
+</body>
+</html>
