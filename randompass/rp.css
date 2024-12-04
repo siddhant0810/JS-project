@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: grey; */
+}
+
+
+
+#container{
+    min-height: 70vh;
+    /* min-width: 600px; */
+    width: 50vw;
+    margin: auto;
+    background-image: url(./hacker-desktop-wallpaper-cyber-background_910608-3034.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-top: 80px;
+  /* background-color: white; */
+  align-items: center;
+}
+#loding{
+    margin-top: 30px;
+    background-color: white;
+    width: 50%;
+    height: 30px;
+}
+#length{
+    width: 34%;
+    height: 25px;
+    background-color: white;
+    margin-top: 50px;
+
+}
+#choice{
+    /* background-color: white; */
+    /* color: black; */
+    margin-top: 50px;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+}
+#checkbox{
+    margin-top: 10px;
+}
+#passbtn{
+    margin-top: 30px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
