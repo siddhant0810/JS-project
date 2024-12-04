@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./rp.css">
+</head>
+<body>
+    <div id="container">
+        <h1 style="font-family: monospace ;border-bottom: 2px solid white;">Random Password</h1>
+        <input id="loding" type="text" placeholder="Loding..." ><br>
+        <div id="err"></div>
+        <input id="length" type="number" 
+        placeholder="Enter The length">
+        <div id="choice">
+            <h4>Include types at least one</h4>
+            <div id="checkbox">
+                <input id="upcase" type="checkbox"><label for="">Upper Case</label><br>
+                <input id="lowcase" type="checkbox"><label for="">Lower Case </label><br>
+                <input id="number" type="checkbox"><label for="">Numbers</label><br>
+                <input id="symbol" type="checkbox"><label for="">Symbols</label><br>
+            </div>
+        </div>
+
+        <button id="passbtn">Generate Password</button>
+    </div>
+    <script src="rp.js"></script>
+</body>
+</html>
